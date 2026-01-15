@@ -2,3 +2,5 @@ helllo from loacl .
 hi i am faruk from local
 this is new branch 
 add the commit
+this is new branch  
+helllo from main
