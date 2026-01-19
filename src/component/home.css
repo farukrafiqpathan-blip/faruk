@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    margin-top: 70px; /* navbar ke niche */
+    width: 100%;
+    height: calc(100vh - 70px); /* full screen minus navbar */
+
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* 🔥 MUST */
+    height: 70px;
+    background: #0f2a2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* 🔥 FIX */
+    color: white; 
+}
+
+/* Logo */
+.logo {
+    flex: 1;
+    /* 🔥 */
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 6px 12px;
+    max-width: fit-content;
+}
+
+/* Menu */
+.menu {
+    flex: 2;
+    /* 🔥 CENTER */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Right */
+.right {
+    flex: 1;
+    /* 🔥 */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Cart */
+.cart {
+    position: relative;
+    font-size: 20px;
+}
+
+.count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background: green;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+/* Buttons */
+.nav-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+}
