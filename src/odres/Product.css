@@ -1,0 +1,39 @@
+
+      .product {
+  color: white; 
+  margin-top: 74px;
+  background: #F3A847;
+  width: 100%;          
+  position: fixed;
+  left: 0;              
+  top: 0;
+  text-align: left;  
+  /* transform: translateX(-50px); */  /* CSS comment fix */
+}
+
+.item {
+  width: 300px;
+}
+
+.crad {
+  width: 34%;
+  margin-top: 70px;
+  margin-left: -50px;
+  position: fixed;
+}
+
+.crad-2 {
+  width: 34%;
+  margin-top: 70px;
+  margin-left: 350px;
+  position: fixed;
+}
+
+.crad-3 {
+  width: 34%;
+  margin-top: 70px;
+  margin-left: 750px;
+  position: fixed;
+}
+
+
